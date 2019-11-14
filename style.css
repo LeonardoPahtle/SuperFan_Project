@@ -1,0 +1,108 @@
+body{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+/* Top */
+.top{
+	height: 10%;
+	width: 100%;
+	display: flex;
+}
+
+.title{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Middle */
+.middle{
+	height: 40%;
+	width: 100%;
+	display: flex;
+}
+
+.big-image{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('images/background.jpg');
+}
+
+/* Bottom */
+.bottom{
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.inbottom{
+	height: 100%;
+	width: 50%;
+	display: flex;
+}
+
+.sections{
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+
+.box{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Images */
+.img{
+	max-height: 75%;
+	max-width: 75%;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: flex;
+}
+
+/* Colors */
+.green {background-color: #008D24;}
+.light-blue {background-color: #0B69C0;}
+.red {background-color: #CA1B22;}
+.orange {background-color: #EA6626;}
+.light-grey {background-color: #A9A9A9;}
+.dark-grey {background-color: #707070;}
+.black {background-color: #000000;}
+.white {background-color: #FFFFFF;}
+.aqua-blue {background-color: #26B9C8}
+
+@media only screen and (max-width: 1000px) {
+	.bottom{
+		display: block;
+	}
+	
+	.inbottom{
+		width: 100%;
+	}
+	
+	.sections{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.inbottom{
+		display: block;
+	}
+}
